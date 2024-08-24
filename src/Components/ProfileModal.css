@@ -1,0 +1,43 @@
+.profile-modal {
+    position: absolute;
+    top: 50px;
+    /* Ajusta según la posición del header */
+
+    right: 10px;
+    width: 250px;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    color: #fff;
+    z-index: 900;
+    display: none;
+    /* Inicialmente oculto */
+}
+
+.profile-modal-section {
+    margin-bottom: 20px;
+}
+
+.profile-modal-section h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #f8f9fa;
+}
+
+.profile-modal-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-modal-section ul li {
+    padding: 8px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.profile-modal-section ul li:hover {
+    background-color: #333;
+    border-radius: 5px;
+}
